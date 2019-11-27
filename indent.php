@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='icon' href='images/6.png' type='image/x-icon'/ >
-    <title>Stock Report | City Construction
+    <title>Indent | City Construction
     </title>
     <?php
 		include("common/metalinks.php");
@@ -64,7 +64,7 @@
             <!-- BEGIN: Page heading-->
 			<div class="page-heading" style="padding-left:17px;">
 			  <div class="page-breadcrumb">
-				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; North Grande &gt; Stock Report
+				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; North Grande &gt; Indent
 				</h1>
 			  </div>
 			</div>
@@ -76,7 +76,7 @@
               <div class="col-md-9 col-xs-9" style="padding:0px;">
                 <div class="card " style="border:1px solid #7c1ab5">
                   <div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">Stock Report</h5>
+						<h5 class="box-title" style="color:#fff;">Indent</h5>
 					</div>
 				  <div class="card-body">
 					<div class="table-responsive">
@@ -84,32 +84,30 @@
 							<thead class="thead-light">
 								<tr>
 									<th>Sl</th>
-									<th>Name</th>
-									<th>Code</th>
-									<th>Unit</th>
-									<th>Received QTY</th>
-									<th>Issue QTY</th>
-									<th>Stock in-hand</th>
-									<th>Date</th>
+									<th>Indent Number</th>
+									<th>Status</th>
+									<th>Action</th>
 								</tr>
 							</thead>
 							<tbody>
-								<?php
-									for($i=1;$i<=10;$i++){
-								?>
 								<tr>
 									<td>1</td>
-									<td>Material 1</td>
-									<td></td>
-									<td>nos</td>
-									<td>100</td>
-									<td>90</td>
-									<td>10</td>
-									<td>14/11/2019</td>
+									<td>NG0043</td>
+									<td><label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span> Approved</label></td>
+									<td><a href="approved_indent.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Download PO</a></td>
 								</tr>
-								<?php
-									}	
-								?>
+								<tr>
+									<td>2</td>
+									<td>NG0044</td>
+									<td><label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span> Approved</label></td>
+									<td><a href="approved_indent.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Download PO</a></td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>NG0053</td>
+									<td><label class="ui-switch switch-solid"><input type="checkbox"><span></span> Unapproved</label></td>
+									<td><a href="unapproved_indent.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Download PO</a></td>
+								</tr>
 							</tbody>
 						</table>
 					</div>

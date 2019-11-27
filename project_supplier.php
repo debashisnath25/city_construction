@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='icon' href='images/6.png' type='image/x-icon'/ >
-    <title>Stock Report | City Construction
+    <title>List of Supplier | City Construction
     </title>
     <?php
 		include("common/metalinks.php");
@@ -64,7 +64,7 @@
             <!-- BEGIN: Page heading-->
 			<div class="page-heading" style="padding-left:17px;">
 			  <div class="page-breadcrumb">
-				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; North Grande &gt; Stock Report
+				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; North Grande &gt; List of Supplier
 				</h1>
 			  </div>
 			</div>
@@ -76,7 +76,7 @@
               <div class="col-md-9 col-xs-9" style="padding:0px;">
                 <div class="card " style="border:1px solid #7c1ab5">
                   <div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">Stock Report</h5>
+						<h5 class="box-title" style="color:#fff;">List of Supplier</h5>
 					</div>
 				  <div class="card-body">
 					<div class="table-responsive">
@@ -85,27 +85,25 @@
 								<tr>
 									<th>Sl</th>
 									<th>Name</th>
-									<th>Code</th>
-									<th>Unit</th>
-									<th>Received QTY</th>
-									<th>Issue QTY</th>
-									<th>Stock in-hand</th>
-									<th>Date</th>
+									<th>Supplier Code</th>
+									<th>Address</th>
+									<th>GSTIN</th>
+									<th>Contact Person</th>
+									<th>Phone</th>
 								</tr>
 							</thead>
 							<tbody>
 								<?php
-									for($i=1;$i<=10;$i++){
+									for($i=1;$i<=5;$i++){
 								?>
 								<tr>
-									<td>1</td>
-									<td>Material 1</td>
-									<td></td>
-									<td>nos</td>
-									<td>100</td>
-									<td>90</td>
-									<td>10</td>
-									<td>14/11/2019</td>
+									<td><?php echo $i;?></td>
+									<td>J P India Ltd</td>
+									<td>JP123</td>
+									<td>Anandapuri, Barrackpore</td>
+									<td>ABCDE9876</td>
+									<td>Rajiv Chaddha</td>
+									<td>9876543210</td>
 								</tr>
 								<?php
 									}	

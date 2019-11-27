@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='icon' href='images/6.png' type='image/x-icon'/ >
-    <title>Stock Report | City Construction
+    <title>Unapproved Indent | City Construction
     </title>
     <?php
 		include("common/metalinks.php");
@@ -64,7 +64,7 @@
             <!-- BEGIN: Page heading-->
 			<div class="page-heading" style="padding-left:17px;">
 			  <div class="page-breadcrumb">
-				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; North Grande &gt; Stock Report
+				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; North Grande &gt; Unapproved Indent
 				</h1>
 			  </div>
 			</div>
@@ -76,40 +76,81 @@
               <div class="col-md-9 col-xs-9" style="padding:0px;">
                 <div class="card " style="border:1px solid #7c1ab5">
                   <div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">Stock Report</h5>
+						<h5 class="box-title" style="color:#fff;">Unapproved Indent</h5>
+						<div class="row pull-right">
+							<div class="col-md-12">
+								<a class="btn btn-danger" href="add_supplier.php">Add Supplier</a>
+								<a class="btn btn-light" href="indent.php">Back</a>
+							</div>
+						</div>
 					</div>
 				  <div class="card-body">
+				  <div class="col-12" style="padding-left:0px;margin-left:0px;">
+						<div class="row">
+							<div class="col-4">
+								<h6>Indent Number: </h6>
+							</div>
+							<div class="col-4">
+								<b>NGOO53</b>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-4">
+								<h6>Project Name: </h6>
+							</div>
+							<div class="col-4">
+								<h6>North Grande</h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-4">
+								<h6>Date: </h6>
+							</div>
+							<div class="col-4">
+								<h6>22/11/2019</h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-4">
+								<h6>Raise By: </h6>
+							</div>
+							<div class="col-4">
+								<h6>Tarok Nath Das</h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-4">
+								<h6>Supplier: </h6>
+							</div>
+							<div class="col-4">
+								<select class="selectpicker form-control mb-3" data-style="btn-light btn-light-solid">
+									<option selected disabled>Choose Supplier</option>
+									<option>J P India Ltd</option>
+								</select>
+							</div>
+						</div>
+					</div>
 					<div class="table-responsive">
-						<table class="table table-bordered w-100" id="dt-buttons">
+						<table class="table table-bordered w-100">
 							<thead class="thead-light">
 								<tr>
 									<th>Sl</th>
-									<th>Name</th>
 									<th>Code</th>
+									<th>Name</th>
 									<th>Unit</th>
-									<th>Received QTY</th>
-									<th>Issue QTY</th>
-									<th>Stock in-hand</th>
+									<th>Quantity</th>
 									<th>Date</th>
 								</tr>
 							</thead>
 							<tbody>
-								<?php
-									for($i=1;$i<=10;$i++){
-								?>
 								<tr>
 									<td>1</td>
-									<td>Material 1</td>
-									<td></td>
+									<td>123</td>
+									<td>ABC</td>
 									<td>nos</td>
-									<td>100</td>
-									<td>90</td>
-									<td>10</td>
-									<td>14/11/2019</td>
+									<td>2</td>
+									<td>27/11/2019</td>
 								</tr>
-								<?php
-									}	
-								?>
 							</tbody>
 						</table>
 					</div>
