@@ -67,6 +67,12 @@
 				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; North Grande &gt; List of Supplier
 				</h1>
 			  </div>
+			  <a class="btn btn-primary" href="add_supplier.php">
+				<span class="btn-icon">
+				  <i class="ti-plus"></i>
+				  Add Supplier
+				</span>
+			 </a>
 			</div>
 			<!-- BEGIN: Page content-->
             <div class="row">

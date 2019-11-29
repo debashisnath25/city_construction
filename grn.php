@@ -41,13 +41,13 @@
               <div class="page-breadcrumb">
                 <h1 class="page-title">
                   <a href="dashboard.php">Dashboard 
-                  </a>> Projects
+                  </a>> GRN
                 </h1>
               </div>
-			  <a class="btn btn-primary" href="#" data-toggle="modal" data-target="#exampleLargeModal">
+			  <a class="btn btn-primary" href="add_grn.php">
 				<span class="btn-icon">
 				  <i class="ti-plus"></i>
-				  Add Project
+				  Add GRN
 				</span>
 			 </a>
             </div>
@@ -74,25 +74,25 @@
 									<thead class="thead-light">
 										<tr>
 											<th>Sl</th>
-											<th>Project Name</th>
+											<th>GRN No.</th>
 											<th>Action</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
 											<td>1</td>
-											<td>North Grande</td>
-											<td><a href="indent.php" class="btn btn-primary">View Details</a></td>
+											<td>GRN123</td>
+											<td><a href="grn_details.php" class="btn btn-primary">View Details</a></td>
 										</tr>
 										<tr>
 											<td>2</td>
-											<td>Siddha Galaxia</td>
-											<td><a href="indent.php" class="btn btn-primary">View Details</a></td>
+											<td>GRN666</td>
+											<td><a href="grn_details.php" class="btn btn-primary">View Details</a></td>
 										</tr>
 										<tr>
 											<td>3</td>
-											<td>Kalim Ark Residency</td>
-											<td><a href="indent.php" class="btn btn-primary">View Details</a></td>
+											<td>GRN555</td>
+											<td><a href="grn_details.php" class="btn btn-primary">View Details</a></td>
 										</tr>
 									</tbody>
 								</table>

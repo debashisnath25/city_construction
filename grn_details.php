@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='icon' href='images/6.png' type='image/x-icon'/ >
-    <title>Stock Report | City Construction
+    <title>Approved Indent | City Construction
     </title>
     <?php
 		include("common/metalinks.php");
@@ -62,61 +62,111 @@
           <!-- END: Header-->
           <div class="page-content fade-in-up">
             <!-- BEGIN: Page heading-->
-			<div class="page-heading" style="padding-left:17px;">
+			<div class="page-heading">
 			  <div class="page-breadcrumb">
-				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; North Grande &gt; Stock Report
+				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; GRN Details
 				</h1>
 			  </div>
-			  <a class="btn btn-primary" href="add_stock_report.php">
-				<span class="btn-icon">
-				  <i class="ti-plus"></i>
-				  Add Stock Report
-				</span>
-			 </a>
 			</div>
 			<!-- BEGIN: Page content-->
             <div class="row">
 			   <!-- settings sidebar start-->
-				<?php include ('common/settings_sidebar.php');?>
+				
 				<!-- settings sidebar Ends-->
-              <div class="col-md-9 col-xs-9" style="padding:0px;">
+              <div class="col-md-12 col-xs-12" style="padding:0px;">
                 <div class="card " style="border:1px solid #7c1ab5">
                   <div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">Stock Report</h5>
+						<h5 class="box-title" style="color:#fff;">GRN Details</h5>
+						<div class="row pull-right">
+							<div class="col-md-12">
+								<a class="btn btn-light" href="grn.php">Back</a>
+							</div>
+						</div>
 					</div>
 				  <div class="card-body">
+				  <div class="col-12" style="padding-left:0px;margin-left:0px;">
+						
+						<div class="row">
+							<div class="col-3">
+								<h6>Project Name: </h6>
+							</div>
+							<div class="col-3">
+								<h6>North Grande</h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-3">
+								<h6>Date: </h6>
+							</div>
+							<div class="col-3">
+								<h6>22-11-19</h6>
+							</div>
+						</div>
+					</div>
 					<div class="table-responsive">
-						<table class="table table-bordered w-100" id="dt-buttons">
+						<table class="table table-bordered w-100">
 							<thead class="thead-light">
 								<tr>
 									<th>Sl</th>
-									<th>Name</th>
 									<th>Code</th>
+									<th>Name</th>
 									<th>Unit</th>
-									<th>Received QTY</th>
-									<th>Issue QTY</th>
-									<th>Stock in-hand</th>
+									<th>PO No.</th>
+									<th>PO Date</th>
+									<th>Chalan No.</th>
+									<th>Chalan Date</th>
+									<th>Name of the Supplier</th>
+									<th>Received Quantity</th>
 									<th>Date</th>
 								</tr>
 							</thead>
 							<tbody>
-								<?php
-									for($i=1;$i<=10;$i++){
-								?>
 								<tr>
 									<td>1</td>
-									<td>Material 1</td>
-									<td></td>
+									<td>123</td>
+									<td>ABC</td>
 									<td>nos</td>
-									<td>100</td>
+									<td>2</td>
+									<td>27/11/2019</td>
+									<td>JP12</td>
+									<td>500</td>
+									<td>J P PVT LTD</td>
 									<td>90</td>
-									<td>10</td>
-									<td>14/11/2019</td>
+									<td>27/11/2019</td>
 								</tr>
-								<?php
-									}	
-								?>
 							</tbody>
+							<tbody>
+								<tr>
+									<td>2</td>
+									<td>123</td>
+									<td>ABC</td>
+									<td>nos</td>
+									<td>2</td>
+									<td>27/11/2019</td>
+									<td>JP12</td>
+									<td>500</td>
+									<td>J P PVT LTD</td>
+									<td>90</td>
+									<td>27/11/2019</td>
+								</tr>
+							</tbody>
+							<tbody>
+								<tr>
+									<td>3</td>
+									<td>123</td>
+									<td>ABC</td>
+									<td>nos</td>
+									<td>2</td>
+									<td>27/11/2019</td>
+									<td>JP12</td>
+									<td>500</td>
+									<td>J P PVT LTD</td>
+									<td>90</td>
+									<td>27/11/2019</td>
+								</tr>
+							</tbody>
+							
+							
 						</table>
 					</div>
 				  </div>

@@ -67,6 +67,12 @@
 				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; North Grande &gt; Indent
 				</h1>
 			  </div>
+			  <a class="btn btn-primary" href="add_indent.php">
+				<span class="btn-icon">
+				  <i class="ti-plus"></i>
+				  Add Indent
+				</span>
+			 </a>
 			</div>
 			<!-- BEGIN: Page content-->
             <div class="row">
@@ -117,6 +123,7 @@
             </div>
             <!-- END: Page content-->
           </div>
+		 
           <!-- BEGIN: Footer-->
           <?php
 			include("common/footer.php");

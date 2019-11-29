@@ -43,6 +43,14 @@
                 </span>
               </a>
             </li>
+			<li class="<?php echo (($page == 'grn')?'mm-active':'')?>">
+              <a href="grn.php">
+                <i class="sidebar-item-icon ft-tag">
+                </i>
+                <span class="nav-label">GRN
+                </span>
+              </a>
+            </li>
           </ul>
         </div>
       

@@ -32,7 +32,7 @@
             <!-- BEGIN: Page heading-->
 			<div class="page-heading">
 			  <div class="page-breadcrumb">
-				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; <a href="suppliers.php">Supplier</a> &gt; Add Supplier
+				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; <a href="suppliers.php">Indent</a> &gt; Add Indent
 				</h1>
 			  </div>
 			</div>
@@ -41,53 +41,75 @@
               <div class="col-md-12 col-xs-12">
                 <div class="card " style="border:1px solid #7c1ab5">
                   <div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">Add Supplier</h5>
+						<h5 class="box-title" style="color:#fff;">Add Indent</h5>
 						<div class="row pull-right">
 							<div class="col-md-12">
-								<a class="btn btn-light" href="project_supplier.php">Back</a>
+								<a class="btn btn-light" href="indent.php">Back</a>
 							</div>
 						</div>
 					</div>
 				  <div class="card-body">
 						<div class="form-group mb-4 row">
+							<dt class="col-sm-4" style="padding-top:10px;">Project Name</dt>
+							<div class="col-sm-6">
+								<select class="selectpicker form-control" data-style="btn-light btn-light-solid">
+									<option selected disabled>Choose Project</option>
+									<option>North Grande</option>
+									<option>Siddha Galaxia</option>
+									<option>Kalim Ark Residency</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="form-group mb-4 row">
+							<dt class="col-sm-4" style="padding-top:10px;">Date</dt>
+							<div class="col-sm-6">
+								<input class="form-control form-control-solid" type="text" placeholder="Enter Date">
+							</div>
+						</div>
+						
+						<div class="form-group mb-4 row">
+							<dt class="col-sm-4" style="padding-top:10px;">Raise By</dt>
+							<div class="col-sm-6">
+								<input class="form-control form-control-solid" type="text" placeholder="Enter Name">
+							</div>
+						</div>
+						
+						<div class="form-group mb-4 row">
 							<dt class="col-sm-4" style="padding-top:10px;">Supplier Name</dt>
 							<div class="col-sm-6">
-								<input class="form-control form-control-solid" type="text" placeholder="Supplier Name">
+								<select class="selectpicker form-control" data-style="btn-light btn-light-solid">
+									<option selected disabled>Choose Supplier</option>
+									<option>J P Pvt Ltd.</option>
+									<option>PVR bricks</option>
+									<option>L&T Pvt Ltd</option>
+								</select>
 							</div>
 						</div>
 
 						<div class="form-group mb-4 row">
-							<dt class="col-sm-4" style="padding-top:10px;">Supplier Code</dt>
+							<dt class="col-sm-4" style="padding-top:10px;">Indent Code</dt>
 							<div class="col-sm-6">
-								<input class="form-control form-control-solid" type="text" placeholder="Supplier Code">
+								<input class="form-control form-control-solid" type="text" placeholder="Enter Indent Code">
 							</div>
 						</div>
 						
 						<div class="form-group mb-4 row">
-							<dt class="col-sm-4" style="padding-top:10px;">Address</dt>
+							<dt class="col-sm-4" style="padding-top:10px;">Indent Name</dt>
 							<div class="col-sm-6">
-								<input class="form-control form-control-solid" type="text" placeholder="Address">
+								<input class="form-control form-control-solid" type="text" placeholder="Enter Indent Name">
 							</div>
 						</div>
-						
 						<div class="form-group mb-4 row">
-							<dt class="col-sm-4" style="padding-top:10px;">GSTIN</dt>
+							<dt class="col-sm-4" style="padding-top:10px;">Unit</dt>
 							<div class="col-sm-6">
-								<input class="form-control form-control-solid" type="text" placeholder="GSTIN">
+								<input class="form-control form-control-solid" type="text" placeholder="Enter Unit">
 							</div>
 						</div>
-
 						<div class="form-group mb-4 row">
-							<dt class="col-sm-4" style="padding-top:10px;">Contact Person</dt>
+							<dt class="col-sm-4" style="padding-top:10px;">Quantity</dt>
 							<div class="col-sm-6">
-								<input class="form-control form-control-solid" type="text" placeholder="Contact Person">
-							</div>
-						</div>
-						
-						<div class="form-group mb-4 row">
-							<dt class="col-sm-4" style="padding-top:10px;">Phone Number</dt>
-							<div class="col-sm-6">
-								<input class="form-control form-control-solid" type="text" placeholder="Phone Number">
+								<input class="form-control form-control-solid" type="text" placeholder="Enter Quantity">
 							</div>
 						</div>
 				  </div>
