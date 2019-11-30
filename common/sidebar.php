@@ -51,6 +51,14 @@
                 </span>
               </a>
             </li>
+			<li class="<?php echo (($page == 'gri')?'mm-active':'')?>">
+              <a href="gri.php">
+                <i class="sidebar-item-icon ft-tag">
+                </i>
+                <span class="nav-label">GRI
+                </span>
+              </a>
+            </li>
           </ul>
         </div>
       
