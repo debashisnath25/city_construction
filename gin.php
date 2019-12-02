@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='icon' href='images/6.png' type='image/x-icon'/ >
-    <title>Projects | City Construction
+    <title>GIN | City Construction
     </title>
     <?php
 	include("common/metalinks.php");
@@ -44,10 +44,10 @@
                   </a>> GRI
                 </h1>
               </div>
-			  <a class="btn btn-primary" href="add_gri.php">
+			  <a class="btn btn-primary" href="add_gin.php">
 				<span class="btn-icon">
 				  <i class="ti-plus"></i>
-				  Add GRI
+				  Add GIN
 				</span>
 			 </a>
             </div>
@@ -82,17 +82,17 @@
 										<tr>
 											<td>1</td>
 											<td>GRI123</td>
-											<td><a href="gri_details.php" class="btn btn-primary">View Details</a></td>
+											<td><a href="gin_details.php" class="btn btn-primary">View Details</a></td>
 										</tr>
 										<tr>
 											<td>2</td>
 											<td>GRI666</td>
-											<td><a href="gri_details.php" class="btn btn-primary">View Details</a></td>
+											<td><a href="gin_details.php" class="btn btn-primary">View Details</a></td>
 										</tr>
 										<tr>
 											<td>3</td>
 											<td>GRI555</td>
-											<td><a href="gri_details.php" class="btn btn-primary">View Details</a></td>
+											<td><a href="gin_details.php" class="btn btn-primary">View Details</a></td>
 										</tr>
 									</tbody>
 								</table>

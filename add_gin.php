@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='icon' href='images/vendor-images/favicon.png' type='image/x-icon'/ >
-    <title>Add Employee | City Construction
+    <title>Add GIN | City Construction
     </title>
     <?php
 		include("common/metalinks.php");
@@ -32,7 +32,7 @@
             <!-- BEGIN: Page heading-->
 			<div class="page-heading">
 			  <div class="page-breadcrumb">
-				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; <a href="gri.php">GRI</a> &gt; Add GRI
+				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; <a href="gin.php">GIN</a> &gt; Add GIN
 				</h1>
 			  </div>
 			</div>
@@ -44,7 +44,7 @@
 						<h5 class="box-title" style="color:#fff;">Add Gri</h5>
 						<div class="row pull-right">
 							<div class="col-md-12">
-								<a class="btn btn-light" href="gri.php">Back</a>
+								<a class="btn btn-light" href="gin.php">Back</a>
 							</div>
 						</div>
 					</div>
@@ -64,7 +64,7 @@
 						<div class="form-group mb-4 row">
 							<dt class="col-sm-4" style="padding-top:10px;">Date</dt>
 							<div class="col-sm-6">
-								<input class="form-control form-control-solid" type="text" placeholder="Enter Gri Date">
+								<input class="form-control form-control-solid" type="text" placeholder="Enter Date">
 							</div>
 						</div>
 						
@@ -78,15 +78,15 @@
 						
 						
 						<div class="form-group mb-4 row">
-							<dt class="col-sm-4" style="padding-top:10px;">Gri Name</dt>
+							<dt class="col-sm-4" style="padding-top:10px;">Material Name</dt>
 							<div class="col-sm-6">
-								<input class="form-control form-control-solid" type="text" placeholder="Enter Gri Name">
+								<input class="form-control form-control-solid" type="text" placeholder="Enter Material Name">
 							</div>
 						</div>
 						<div class="form-group mb-4 row">
 							<dt class="col-sm-4" style="padding-top:10px;">Code</dt>
 							<div class="col-sm-6">
-								<input class="form-control form-control-solid" type="text" placeholder="Enter Gri Code">
+								<input class="form-control form-control-solid" type="text" placeholder="Enter GIN Code">
 							</div>
 						</div>
 						<div class="form-group mb-4 row">

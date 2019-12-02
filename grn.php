@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='icon' href='images/6.png' type='image/x-icon'/ >
-    <title>Projects | City Construction
+    <title>GRN | City Construction
     </title>
     <?php
 	include("common/metalinks.php");
@@ -59,7 +59,7 @@
                     <div class="tab-pane fade active show" id="faq-group-1">
                       <div class="card" style="border:1px solid #7c1ab5">
                         <div class="card-header cardhdd">
-                          <h5 class="box-title" style="color:#fff;">Projects
+                          <h5 class="box-title" style="color:#fff;">GRN
                           </h5>
                           <div class="card-actions">
                             <a class="card-collapse">

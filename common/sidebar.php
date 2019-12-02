@@ -19,7 +19,7 @@
                 </span> 
               </a>
             </li> -->
-			<li class="<?php echo (($page == 'projects')?'mm-active':'')?>">
+			<li class="<?php echo (($page == 'projects' || $page == 'add_projects')?'mm-active':'')?>">
               <a href="projects.php">
                 <i class="sidebar-item-icon ft-layers">
                 </i>
@@ -43,7 +43,7 @@
                 </span>
               </a>
             </li>
-			<li class="<?php echo (($page == 'grn')?'mm-active':'')?>">
+			<li class="<?php echo (($page == 'grn' || $page == 'add_grn' || $page == 'grn_details')?'mm-active':'')?>">
               <a href="grn.php">
                 <i class="sidebar-item-icon ft-tag">
                 </i>
@@ -51,11 +51,11 @@
                 </span>
               </a>
             </li>
-			<li class="<?php echo (($page == 'gri')?'mm-active':'')?>">
-              <a href="gri.php">
+			<li class="<?php echo (($page == 'gin' || $page == 'add_gin' || $page == 'gin_details')?'mm-active':'')?>">
+              <a href="gin.php">
                 <i class="sidebar-item-icon ft-tag">
                 </i>
-                <span class="nav-label">GRI
+                <span class="nav-label">GIN
                 </span>
               </a>
             </li>

@@ -79,7 +79,7 @@
 						<h5 class="box-title" style="color:#fff;">GRI Details</h5>
 						<div class="row pull-right">
 							<div class="col-md-12">
-								<a class="btn btn-light" href="gri.php">Back</a>
+								<a class="btn btn-light" href="gin.php">Back</a>
 							</div>
 						</div>
 					</div>
@@ -107,7 +107,7 @@
 								<h6>Issue To </h6>
 							</div>
 							<div class="col-3">
-								<h6></h6>
+								<h6>Tarok Nath Das</h6>
 							</div>
 						</div>
 					</div>

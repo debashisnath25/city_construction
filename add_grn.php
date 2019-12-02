@@ -91,12 +91,6 @@
 							</div>
 						</div>
 						<div class="form-group mb-4 row">
-							<dt class="col-sm-4" style="padding-top:10px;">Unit</dt>
-							<div class="col-sm-6">
-								<input class="form-control form-control-solid" type="text" placeholder="Enter Unit">
-							</div>
-						</div>
-						<div class="form-group mb-4 row">
 							<dt class="col-sm-4" style="padding-top:10px;">PO No.</dt>
 							<div class="col-sm-6">
 								<input class="form-control form-control-solid" type="text" placeholder="Enter PO No.">
