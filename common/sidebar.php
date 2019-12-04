@@ -27,38 +27,39 @@
                 </span> 
               </a>
             </li>
-			<li class="<?php echo (($page == 'employees')?'mm-active':'')?>">
-              <a href="employees.php">
-                <i class="sidebar-item-icon fa fa-users">
-                </i>
-                <span class="nav-label">Employees
-                </span>
-              </a>
-            </li>
-			<li class="<?php echo (($page == 'suppliers')?'mm-active':'')?>">
-              <a href="suppliers.php">
-                <i class="sidebar-item-icon ft-tag">
-                </i>
-                <span class="nav-label">Suppliers
-                </span>
-              </a>
-            </li>
-			<li class="<?php echo (($page == 'grn' || $page == 'add_grn' || $page == 'grn_details')?'mm-active':'')?>">
-              <a href="grn.php">
-                <i class="sidebar-item-icon ft-tag">
-                </i>
-                <span class="nav-label">GRN
-                </span>
-              </a>
-            </li>
-			<li class="<?php echo (($page == 'gin' || $page == 'add_gin' || $page == 'gin_details')?'mm-active':'')?>">
-              <a href="gin.php">
-                <i class="sidebar-item-icon ft-tag">
-                </i>
-                <span class="nav-label">GIN
-                </span>
-              </a>
-            </li>
+			
+			<li class="<?php echo (($page == 'employees' || $page == 'add_employee')?'mm-active':'')?>"><a href="javascript:;"><i class="sidebar-item-icon fa fa-users"></i><span class="nav-label">Employees</span><i class="arrow la la-angle-right"></i></a>
+				<ul class="nav-2-level">
+					<!-- 2-nd level-->
+					<li><a href="add_employee.php">Add Employer</a></li>
+					<li ><a href="employees.php">View Employees</a></li>
+					
+				</ul>
+			</li>
+			<li class="<?php echo (($page == 'supplier' || $page == 'add_supplier')?'mm-active':'')?>"><a href="javascript:;"><i class="sidebar-item-icon ft-tag"></i><span class="nav-label">Suppliers</span><i class="arrow la la-angle-right"></i></a>
+				<ul class="nav-2-level">
+					<!-- 2-nd level-->
+					<li><a href="add_supplier.php">Add Supplier</a></li>
+					<li ><a href="suppliers.php">View Supplier</a></li>
+					
+				</ul>
+			</li>
+			<li class="<?php echo (($page == 'grn' || $page == 'add_grn')?'mm-active':'')?>"><a href="javascript:;"><i class="sidebar-item-icon ft-tag"></i><span class="nav-label">GRN</span><i class="arrow la la-angle-right"></i></a>
+				<ul class="nav-2-level">
+					<!-- 2-nd level-->
+					<li><a href="add_grn.php">Add GRN</a></li>
+					<li ><a href="grn.php">View GRN</a></li>
+					
+				</ul>
+			</li>
+			<li class="<?php echo (($page == 'gin' || $page == 'add_gin')?'mm-active':'')?>"><a href="javascript:;"><i class="sidebar-item-icon ft-tag"></i><span class="nav-label">GIN</span><i class="arrow la la-angle-right"></i></a>
+				<ul class="nav-2-level">
+					<!-- 2-nd level-->
+					<li><a href="add_gin.php">Add GIN</a></li>
+					<li ><a href="gin.php">View GIN</a></li>
+					
+				</ul>
+			</li>
           </ul>
         </div>
       
