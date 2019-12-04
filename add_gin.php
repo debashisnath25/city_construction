@@ -41,7 +41,7 @@
               <div class="col-md-12 col-xs-12">
                 <div class="card " style="border:1px solid #7c1ab5">
                   <div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">Add Gri</h5>
+						<h5 class="box-title" style="color:#fff;">Add GIN</h5>
 						<div class="row pull-right">
 							<div class="col-md-12">
 								<a class="btn btn-light" href="gin.php">Back</a>

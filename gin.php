@@ -41,7 +41,7 @@
               <div class="page-breadcrumb">
                 <h1 class="page-title">
                   <a href="dashboard.php">Dashboard 
-                  </a>> GRI
+                  </a>> GIN
                 </h1>
               </div>
 			  <a class="btn btn-primary" href="add_gin.php">
@@ -59,7 +59,7 @@
                     <div class="tab-pane fade active show" id="faq-group-1">
                       <div class="card" style="border:1px solid #7c1ab5">
                         <div class="card-header cardhdd">
-                          <h5 class="box-title" style="color:#fff;">Projects
+                          <h5 class="box-title" style="color:#fff;">GIN
                           </h5>
                           <div class="card-actions">
                             <a class="card-collapse">
