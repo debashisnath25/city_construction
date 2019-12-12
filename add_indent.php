@@ -11,7 +11,9 @@
 		include("common/metalinks.php");
 	?>
     <link href="css/vendor-css/form-wizard.css" rel="stylesheet" />
-    <!-- PAGE LEVEL STYLES-->
+	<link href="css/vendor-css/bootstrap-datepicker3.min.css" rel="stylesheet" />
+	<link href="css/datepicker3.css" rel="stylesheet" />
+	<!-- PAGE LEVEL STYLES-->
   </head>
   <body>
     <div class="page-wrapper">
@@ -64,7 +66,7 @@
 						<div class="form-group mb-4 row">
 							<dt class="col-sm-4" style="padding-top:10px;">Date</dt>
 							<div class="col-sm-6">
-								<input class="form-control form-control-solid" type="text" placeholder="Enter Date">
+								<input class="form-control form-control-solid" id="datepicker_basic" type="text" placeholder="Select date">
 							</div>
 						</div>
 						
@@ -139,5 +141,18 @@
     </script>
     <script src="js/vendor-js/jquery.steps.min.js">
     </script>
+	<script src="js/vendor-js/bootstrap-datepicker.min.js">
+    </script>
+	<script src="js/vendor-js/daterangepicker.js">
+	</script>
+	<script src="js/bootstrap-datepicker.js">
+    </script>
+	<script>
+	$('#datepicker_basic').datepicker({
+                calendarWeeks: true,
+                autoclose: true,
+                templates: temp,
+            });
+	</script>
   </body>
 </html>

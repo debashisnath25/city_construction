@@ -12,7 +12,7 @@
 	?>
     <!-- PAGE LEVEL VENDORS-->
     <link href="css/vendor-css/datatables.min.css" rel="stylesheet" />
-	
+	<link href="css/vendor-css/daterangepicker.css" rel="stylesheet" />
 	<link href="css/vendor-css/bootstrap-datepicker3.min.css" rel="stylesheet" />
     <!-- PAGE LEVEL STYLES-->
 	<style>
@@ -126,7 +126,7 @@
 							<div class="form-group mb-4 row">
 								<dt class="col-sm-3" style="padding-top:10px;">Date</dt>
 								<div class="col-sm-9">
-									<input class="form-control" id="datepicker_basic" type="text" placeholder="Select date">
+									<input class="form-control form-control-solid mb-3" id="datetimepicker_3" type="text" placeholder="Start Date">
 								</div>
 							</div>
 							<div class="form-group mb-4 row">
@@ -154,6 +154,7 @@
     <script src="js/vendor-js/datatables.min.js"></script>
 	
 	<script src="js/vendor-js/bootstrap-datepicker.min.js"></script>
+	<script src="js/vendor-js/daterangepicker.js"></script>
     <script>
       $(function() {
         $('#dt-buttons').DataTable({
@@ -166,11 +167,11 @@
           ]
         });
         $(".dt-buttons").removeClass("btn-group");
-		$('#datepicker_basic').datepicker({
-                calendarWeeks: true,
-                autoclose: true,
-                templates: temp,
-            });
+		$("#datetimepicker_3").datepicker({
+			autoclose: true,
+			todayHighlight: true,
+			templates: temp,
+		});
       });
     </script>
 	<script>
