@@ -82,7 +82,7 @@
               <div class="col-md-9 col-xs-9" style="padding:0px;">
                 <div class="card " style="border:1px solid #7c1ab5">
                   <div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">Indent</h5>
+						<h5 class="box-title" style="color:#fff;">Pending Indent</h5>
 					</div>
 				  <div class="card-body">
 					<div class="table-responsive">
@@ -91,28 +91,25 @@
 								<tr>
 									<th>Sl</th>
 									<th>Indent Number</th>
-									<th>Status</th>
+									
 									<th>Action</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
 									<td>1</td>
-									<td>NG0043</td>
-									<td><label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span> Approved</label></td>
-									<td><a href="approved_indent.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Download PO</a></td>
+									<td><b>NG-001-1920</b></td>
+									<td><a href="pending_indent_details.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Approved</a>&nbsp;<a href="javascript:void(0);" class="btn btn-danger">Not approved</a></td>
 								</tr>
 								<tr>
 									<td>2</td>
-									<td>NG0044</td>
-									<td><label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span> Approved</label></td>
-									<td><a href="approved_indent.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Download PO</a></td>
+									<td><b>NG-002-1920</b></td>
+									<td><a href="pending_indent_details.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Approved</a>&nbsp;<a href="javascript:void(0);" class="btn btn-danger">Not approved</a></td>
 								</tr>
 								<tr>
 									<td>3</td>
-									<td>NG0053</td>
-									<td><label class="ui-switch switch-solid"><input type="checkbox"><span></span> Unapproved</label></td>
-									<td><a href="unapproved_indent.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Download PO</a></td>
+									<td><b>NG-003-1920</b></td>
+									<td><a href="pending_indent_details.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Approved</a>&nbsp;<a href="javascript:void(0);" class="btn btn-danger">Not approved</a></td>
 								</tr>
 							</tbody>
 						</table>

@@ -72,6 +72,7 @@
 											<th>Employees Code</th>
 											<th>Address</th>
 											<th>Phone</th>
+											<th>Action</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -84,6 +85,9 @@
 											<td>RK123</td>
 											<td>Anandapuri, Barrackpore</td>
 											<td>9876543210</td>
+											<td><button class="btn btn-info btn-sm"  type="button">Edit</button>
+												<button class="btn btn-danger btn-sm" type="button">Delete</button>
+											</td>
 										</tr>
 										<?php
 											}	

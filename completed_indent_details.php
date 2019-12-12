@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='icon' href='images/6.png' type='image/x-icon'/ >
-    <title>Indent | City Construction
+    <title>Approved Indent | City Construction
     </title>
     <?php
 		include("common/metalinks.php");
@@ -40,7 +40,10 @@
 		width:129px;
 	  }
 	  .btn-danger{
-		width:129px;
+		width:100px;
+	  }
+	  .btn-info{
+		width:100px;
 	  }
     </style>
     <!-- PAGE LEVEL STYLES-->
@@ -64,10 +67,9 @@
             <!-- BEGIN: Page heading-->
 			<div class="page-heading" style="padding-left:17px;">
 			  <div class="page-breadcrumb">
-				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; North Grande &gt;Approved Indent
+				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; North Grande &gt; Approved Indent Details
 				</h1>
 			  </div>
-			  
 			</div>
 			<!-- BEGIN: Page content-->
             <div class="row">
@@ -77,34 +79,75 @@
               <div class="col-md-9 col-xs-9" style="padding:0px;">
                 <div class="card " style="border:1px solid #7c1ab5">
                   <div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">Approved Indent</h5>
+						<h5 class="box-title" style="color:#fff;">Completed Indent Details</h5>
+						<div class="row pull-right">
+							<div class="col-md-12">
+							    <a class="btn btn-light" style="margin-right:5px;" href="#/">Download P.O Invoice</a>
+								
+								<a class="btn btn-light" href="completed_indent.php">Back</a>
+
+							</div>
+						</div>
 					</div>
 				  <div class="card-body">
+				  <div class="col-12 mb-4" style="padding-left:0px;margin-left:0px;">
+						<div class="row mb-4 " style="padding-left:10px;">
+							<div class="col-md-3 mb-2">
+								<h5 class="text-primary mb-3">Indent No.</h5>
+								<div class="font-15 text-muted">
+									<div class=" text-muted">NG-001-1920</div>
+									
+								</div>
+							</div>
+							<div class="col-md-3 mb-4">
+								<h5 class="text-primary mb-3">Project Details</h5>
+								<div class="font-15 text-muted">
+									<div class=" text-muted">North Grande</div>
+									<div class=" text-muted">22 Dec 2019, 06:10 PM</div>
+								</div>
+							</div>
+							<div class="col-md-3 mb-4">
+								<h5 class="text-primary mb-3">Raise By</h5>
+								<div class="font-15 text-muted">
+								  <div class=" text-muted">Tarok Nath Das</div>
+								</div>
+							</div>
+							<div class="col-md-3 mb-4" style="margin:0px !important;">
+								<h5 class="text-primary mb-3">Supplier Name</h5>
+								<div class="font-15 text-muted">
+								  <div class=" text-muted">J P India Ltd</div>
+								   
+								</div>
+							</div>
+						</div>	
+					</div>
 					<div class="table-responsive">
-						<table class="table table-bordered w-100" id="dt-buttons">
+						<table class="table table-bordered w-100">
 							<thead class="thead-light">
 								<tr>
 									<th>Sl</th>
-									<th>Indent Number</th>
+									<th>Code</th>
+									<th>Name</th>
+									<th>Unit</th>
+									<th>Quantity</th>
+									<th>Date</th>
 									
 									<th>Action</th>
+
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
 									<td>1</td>
-									<td><b>NG-001-1920</b></td>
-									<td><a href="approved_indent_details.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Create P.O</a></td>
-								</tr>
-								<tr>
+									<td>123</td>
+									<td>ABC</td>
+									<td>nos</td>
 									<td>2</td>
-									<td><b>NG-002-1920</b></td>
-									<td><a href="approved_indent_details.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Create P.O</a></td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td><b>NG-003-1920</b></td>
-									<td><a href="approved_indent_details.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Create P.O</a></td>
+									<td>22 Dec 2019, 06:10 PM</td>
+									
+									<td><button class="btn btn-info btn-sm"  type="button">Edit</button>
+										<button class="btn btn-danger btn-sm" type="button">Delete</button>
+									</td>
 								</tr>
 							</tbody>
 						</table>
@@ -115,7 +158,6 @@
             </div>
             <!-- END: Page content-->
           </div>
-		 
           <!-- BEGIN: Footer-->
           <?php
 			include("common/footer.php");

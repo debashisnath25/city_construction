@@ -12,6 +12,8 @@
 	?>
     <!-- PAGE LEVEL VENDORS-->
     <link href="css/vendor-css/datatables.min.css" rel="stylesheet" />
+	
+	<link href="css/vendor-css/bootstrap-datepicker3.min.css" rel="stylesheet" />
     <!-- PAGE LEVEL STYLES-->
 	<style>
 	.dt-buttons {
@@ -124,7 +126,13 @@
 							<div class="form-group mb-4 row">
 								<dt class="col-sm-3" style="padding-top:10px;">Date</dt>
 								<div class="col-sm-9">
-									<input class="form-control form-control-solid theme_border" id="validationCustom03" type="text" placeholder="Enter Date" required="">
+									<input class="form-control" id="datepicker_basic" type="text" placeholder="Select date">
+								</div>
+							</div>
+							<div class="form-group mb-4 row">
+								<dt class="col-sm-3" style="padding-top:10px;">Address</dt>
+								<div class="col-sm-9">
+									<input class="form-control form-control-solid theme_border" id="validationCustom03" type="text" placeholder="Enter Adddress" required="">
 								</div>
 							</div>
 
@@ -143,8 +151,9 @@
         <!-- END: Content-->
       </div>
     </div>
-    <script src="js/vendor-js/datatables.min.js">
-    </script>
+    <script src="js/vendor-js/datatables.min.js"></script>
+	
+	<script src="js/vendor-js/bootstrap-datepicker.min.js"></script>
     <script>
       $(function() {
         $('#dt-buttons').DataTable({
@@ -157,7 +166,16 @@
           ]
         });
         $(".dt-buttons").removeClass("btn-group");
+		$('#datepicker_basic').datepicker({
+                calendarWeeks: true,
+                autoclose: true,
+                templates: temp,
+            });
       });
     </script>
+	<script>
+
+	
+	</script>
   </body>
 </html>

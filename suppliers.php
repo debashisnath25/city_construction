@@ -74,6 +74,7 @@
 											<th>GSTIN</th>
 											<th>Contact Person</th>
 											<th>Phone</th>
+											<th>Action</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -88,6 +89,9 @@
 											<td>ABCDE9876</td>
 											<td>Rajiv Chaddha</td>
 											<td>9876543210</td>
+											<td><button class="btn btn-info btn-sm"  type="button">Edit</button>
+												<button class="btn btn-danger btn-sm" type="button">Delete</button>
+											</td>
 										</tr>
 										<?php
 											}	

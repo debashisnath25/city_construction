@@ -21,7 +21,7 @@
             </li> -->
 			<li class="<?php echo (($page == 'projects' || $page == 'add_projects')?'mm-active':'')?>">
               <a href="projects.php">
-                <i class="sidebar-item-icon ft-layers">
+                <i class="sidebar-item-icon fas fa-landmark">
                 </i>
                 <span class="nav-label">Projects
                 </span> 
@@ -36,7 +36,7 @@
 					
 				</ul>
 			</li>
-			<li class="<?php echo (($page == 'supplier' || $page == 'add_supplier')?'mm-active':'')?>"><a href="javascript:;"><i class="sidebar-item-icon ft-tag"></i><span class="nav-label">Suppliers</span><i class="arrow la la-angle-right"></i></a>
+			<li class="<?php echo (($page == 'suppliers' || $page == 'add_supplier')?'mm-active':'')?>"><a href="javascript:;"><i class="sidebar-item-icon fas fa-user-friends"></i><span class="nav-label">Suppliers</span><i class="arrow la la-angle-right"></i></a>
 				<ul class="nav-2-level">
 					<!-- 2-nd level-->
 					<li><a href="add_supplier.php">Add Supplier</a></li>
@@ -44,7 +44,15 @@
 					
 				</ul>
 			</li>
-			<li class="<?php echo (($page == 'grn' || $page == 'add_grn')?'mm-active':'')?>"><a href="javascript:;"><i class="sidebar-item-icon ft-tag"></i><span class="nav-label">GRN</span><i class="arrow la la-angle-right"></i></a>
+			<li class="<?php echo (($page == 'view_indent' || $page == 'add_indent'|| $page == 'indent')?'mm-active':'')?>"><a href="javascript:;"><i class="sidebar-item-icon fas fa-money-check-alt"></i><span class="nav-label">Indent</span><i class="arrow la la-angle-right"></i></a>
+				<ul class="nav-2-level">
+					<!-- 2-nd level-->
+					<li><a href="add_indent.php">Add Indent</a></li>
+					<li ><a href="indent.php">View Indent</a></li>
+					
+				</ul>
+			</li>
+			<li class="<?php echo (($page == 'grn' || $page == 'add_grn')?'mm-active':'')?>"><a href="javascript:;"><i class="sidebar-item-icon fas fa-file-invoice"></i><span class="nav-label">GRN</span><i class="arrow la la-angle-right"></i></a>
 				<ul class="nav-2-level">
 					<!-- 2-nd level-->
 					<li><a href="add_grn.php">Add GRN</a></li>
@@ -52,7 +60,7 @@
 					
 				</ul>
 			</li>
-			<li class="<?php echo (($page == 'gin' || $page == 'add_gin')?'mm-active':'')?>"><a href="javascript:;"><i class="sidebar-item-icon ft-tag"></i><span class="nav-label">GIN</span><i class="arrow la la-angle-right"></i></a>
+			<li class="<?php echo (($page == 'gin' || $page == 'add_gin')?'mm-active':'')?>"><a href="javascript:;"><i class="sidebar-item-icon fas fa-receipt"></i><span class="nav-label">GIN</span><i class="arrow la la-angle-right"></i></a>
 				<ul class="nav-2-level">
 					<!-- 2-nd level-->
 					<li><a href="add_gin.php">Add GIN</a></li>
@@ -62,4 +70,9 @@
 			</li>
           </ul>
         </div>
+		<i class="fas fa-file-invoice"></i>
+		<i class="fas fa-receipt"></i>
+		<i class="fas fa-money-check-alt"></i>
+		<i class="fas fa-user-friends"></i>
+		<i class="fas fa-landmark"></i>
       

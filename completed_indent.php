@@ -64,7 +64,7 @@
             <!-- BEGIN: Page heading-->
 			<div class="page-heading" style="padding-left:17px;">
 			  <div class="page-breadcrumb">
-				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; North Grande &gt;Approved Indent
+				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; North Grande &gt; Indent
 				</h1>
 			  </div>
 			  
@@ -77,7 +77,7 @@
               <div class="col-md-9 col-xs-9" style="padding:0px;">
                 <div class="card " style="border:1px solid #7c1ab5">
                   <div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">Approved Indent</h5>
+						<h5 class="box-title" style="color:#fff;">Completed Indent</h5>
 					</div>
 				  <div class="card-body">
 					<div class="table-responsive">
@@ -94,17 +94,17 @@
 								<tr>
 									<td>1</td>
 									<td><b>NG-001-1920</b></td>
-									<td><a href="approved_indent_details.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Create P.O</a></td>
+									<td><a href="completed_indent_details.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Download P.O Invoice</a></td>
 								</tr>
 								<tr>
 									<td>2</td>
 									<td><b>NG-002-1920</b></td>
-									<td><a href="approved_indent_details.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Create P.O</a></td>
+									<td><a href="completed_indent_details.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Download P.O Invoice</a></td>
 								</tr>
 								<tr>
 									<td>3</td>
 									<td><b>NG-003-1920</b></td>
-									<td><a href="approved_indent_details.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Create P.O</a></td>
+									<td><a href="completed_indent_details.php" class="btn btn-primary">View Details</a>&nbsp;<a href="javascript:void(0);" class="btn btn-info">Download P.O Invoice</a></td>
 								</tr>
 							</tbody>
 						</table>
